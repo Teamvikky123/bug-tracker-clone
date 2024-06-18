@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <div>
+            <h1>BUG TRACKER</h1>
+            <h5>Report all bugs</h5>
+        </div>
+    </center>
+    <center>
+        <div>
+            <form action="#">
+                <label for="bug">Bug Title*</label>
+                <input type="text" name="bug" id="bug">
+                <br><br>
+
+                <label for="issue">Issue Description</label>
+                <input type="text" name="issue" id="issue">
+                <br><br><br>
+
+                <label for="os">Operating System</label>
+                <select name="os" id="os">
+                    <option value="Windows">WINDOWS</option>
+                    <option value="mac">MAC</option>
+                    <option value="andrioid">ANDROID</option>
+                </select>
+                <br><br>
+
+                <div>
+                    <p>browser</p>
+                </div>
+
+                <input type="radio" id="ie" name="browser" value="interne_explorer">
+                <label for="ie">Internet Explorer</label><br><br>
+
+
+                <input type="radio" id="chrome" name="browser" value="chrome">
+                <label for="chrome">chrome</label><br><br>
+
+                <input type="radio" id="firefox" name="browser" value="firefox">
+                <label for="firefox">Firefox</label><br><br>
+
+                <input type="radio" name="browser" id="safari" value="safari">
+                <label for="safari">Safari</label><br><br>
+
+                <input type="radio" id="opera" name="browser" value="opera">
+                <label for="opera">Opera</label><br><br>
+
+                <input type="radio" name="browser" id="others" value="others">
+                <label for="others">Others</label> <br><br>
+
+                <label for="assigned">Assigned To</label>
+                <select name="assigned" id="assigned">
+                    <option value="select">firefox</option>
+                    <option value="">chrome</option>
+                </select><br><br>
+
+                <label for="pr">priority</label>
+                <select name="pr" id="pr">
+                    <option value="select">firefox</option>
+                    <option value="">Chrome</option>
+                </select><br><br>
+
+                <label for="files">Select files:</label>
+                <input type="file" id="files" name="files" multiple><br><br>
+
+                <button type="submit">submit</button>
+            </form>
+        </div>
+    </center>
+</body>
+</html>
